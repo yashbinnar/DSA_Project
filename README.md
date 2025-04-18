@@ -45,4 +45,22 @@ Both versions simulate a 10x10 smart parking grid with gate-based shortest path 
 ```bash
 g++ park.cpp parking_backend.cpp -o ParkingApp -lgdi32 -mwindows
 g++ test.cpp -o Parking
+```
 
+## 📸 Screenshots
+
+### 🖼️ GUI View
+
+![Parking Grid with Occupied and Available Slots](assets/Screenshot1.png)
+
+> Example: Green buttons for available slots, red labels for parked vehicles.
+
+---
+
+### 🚪 Entry/Exit Gates and Dialog Prompt
+
+![Vehicle Entry via Gate](assets/Screenshot2.jpg)
+
+> Example: Gate buttons placed at the four corners. Input prompt for car number on entry.
+
+---
